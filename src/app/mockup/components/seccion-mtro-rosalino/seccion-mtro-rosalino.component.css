@@ -1,0 +1,93 @@
+.text-mtro {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 70px;
+}
+
+.target {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.w30 {
+    width: 90%;
+}
+
+.w50 {
+    width: 63%;
+}
+
+.cont-target {
+    padding: 10px 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.target .linea {
+    background-color: #1C8C90;
+    height: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.target img {
+    width: 70px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+.target .text-mod {
+    text-align: justify;
+}
+
+.target ul {
+    list-style: none;
+    padding: 0;
+    margin-left: 10px;
+}
+
+.target ul li::before {
+    content: "\2022";
+    padding-right: 8px;
+    color: #1C8C90;
+    display: inline-block;
+    padding-right: 10px;
+    font-size: 50px;
+    line-height: 25px;
+    vertical-align: -11px;
+    width: 15px;
+    margin-right: 8px;
+}
+
+.flechas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px;
+}
+
+.flechas .flecha-item {
+    display: flex;
+    margin: 5px 0;
+}
+
+.flechas .flecha-item img {
+    width: 30px;
+    height: 20px;
+    margin-right: 8px;
+    margin-top: 3px;
+}
+
+.flechas .flecha-item p {}
+
+@media (max-width:425px) {
+    .w30 {
+        width: 100%;
+    }
+    .w50 {
+        width: 100%;
+    }
+}

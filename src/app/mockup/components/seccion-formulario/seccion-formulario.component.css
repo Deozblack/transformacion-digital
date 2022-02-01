@@ -1,0 +1,49 @@
+form {
+    margin: 0;
+    margin-top: 40px;
+    padding: 50px;
+    border-radius: 50px;
+}
+
+.form-label {
+    font-size: 12px;
+    font-weight: 700;
+    padding-left: 5px;
+}
+
+.form-control {
+    height: 25px;
+    border-radius: 7px;
+    margin-bottom: 10px;
+}
+
+.form-select {
+    height: 30px;
+    border-radius: 7px;
+    margin-bottom: 10px;
+    font-size: 10px;
+}
+
+.text-form {
+    color: #1C8C90;
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 25px;
+}
+
+.btn-primary {
+    border-radius: 7px;
+    padding: 1px 40px;
+    margin: auto;
+    margin-bottom: 0px;
+    margin-top: 40px;
+}
+
+@media (max-width:425px) {
+    form {
+        margin: 0;
+        margin-top: 10px;
+        padding: 20px;
+        border-radius: 50px;
+    }
+}

@@ -1,0 +1,44 @@
+<div class="container">
+    <div class="row mt-4">
+        <div class="col d-flex justify-content-between">
+            <h1>Heroes</h1>
+            <button routerLink="../" class="btn btn-danger">Regresar</button>
+        </div>
+
+        <hr>
+    </div>
+    <div class="row p-4 animate__animated animate__fadeInUp animate__slow">
+        <div class="col" *ngFor="let item of heroe">
+            <div class="card mb-3" style="width: 18rem;">
+                <img class="card-img-top" [src]="item.images.lg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">{{item.name}}</h5>
+                    <p class="card-text">
+                        <strong>Nombre completo:</strong> {{item.biography.fullName}}
+                    </p>
+                    <p class="card-text"><strong>Alineación:</strong> {{item.biography.alignment}}</p>
+                    <p class="card-text"><strong>Primera aparición:</strong> {{item.biography.firstAppearance}}</p>
+                    <p class="card-text"> <strong>Lugar de nacimiento:</strong> {{item.biography.placeOfBirth}}</p>
+                    <p class="card-text"><strong>Publicado por:</strong> {{item.biography.publisher}}</p>
+                </div>
+                <div class="card-body">
+                    <p class="card-text"><strong>Apariencia:</strong></p>
+                    <li>{{item.appearance.gender}}</li>
+                    <li>{{item.appearance.eyeColor}}</li>
+                    <li>{{item.appearance.hairColor}}</li>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">combat: {{item.powerstats.combat}}</li>
+                    <li class="list-group-item">durability: {{item.powerstats.durability}}</li>
+                    <li class="list-group-item">intelligence: {{item.powerstats.intelligence}}</li>
+                    <li class="list-group-item">power: {{item.powerstats.power}}</li>
+                    <li class="list-group-item">speed: {{item.powerstats.speed}}</li>
+                    <li class="list-group-item">strength: {{item.powerstats.strength}}</li>
+                </ul>
+                <div class="card-body">
+                    <p class="card-text"><strong>Grupo de afiliación:</strong> {{item.connections.groupAffiliation}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

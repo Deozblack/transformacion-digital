@@ -1,0 +1,17 @@
+.cont-home {
+    background: #ccc;
+    height: 100vh;
+}
+
+.card {
+    width: 50%;
+}
+
+@media (max-width:425px) {
+    .cont-home {
+        height: 100%;
+    }
+    .card {
+        width: 75%;
+    }
+}

@@ -1,1 +1,50 @@
-<p>seccion-formulario works!</p>
+<div class="container" id="registroUser">
+    <div class="row">
+
+        <form class="bg-white" action="" autocomplete="off" [formGroup]="miFormulario" (ngSubmit)="enviarFormulario()">
+            <div class="col">
+                <div class="col-md-12">
+                    <h3 class="text-form">No pierdas la oportunidad ¡Registrate ahora!</h3>
+                </div>
+                <div class="col-md-12">
+                    <label for="nombre" class="form-label">Nombre</label>
+                    <input formControlName="nombre" type="text" name="nombre" id="nombre" class="form-control" required>
+                </div>
+                <div class="col-md-12">
+                    <label for="apellido" class="form-label">Apellido</label>
+                    <input formControlName="apellido" type="text" name="apellido" id="apellido" class="form-control" required>
+                </div>
+                <div class="col-md-12">
+                    <label for="phone" class="form-label">Teléfono o celular</label>
+                    <input formControlName="phone" type="tel" name="phone" id="phone" class="form-control" maxlength="10" required>
+                </div>
+                <div class="col-md-12">
+                    <label for="empresa" class="form-label">Empresa</label>
+                    <input formControlName="empresa" type="text" name="empresa" id="empresa" class="form-control" required>
+                </div>
+                <div class="col-md-12">
+                    <label for="cargo" class="form-label">Cargo</label>
+                    <input formControlName="cargo" type="text" name="cargo" id="cargo" class="form-control" required>
+                </div>
+                <div class="col-md-12">
+                    <label for="mail" class="form-label">Mail</label>
+                    <input formControlName="email" type="mail" name="mail" id="mail" class="form-control" required>
+                </div>
+                <div class="col-md-12">
+                    <label for="entidad" class="form-label">Entidad Federativa</label>
+                    <select name="entidad" id="entidad" class="form-select" formControlName="entidad">
+                            <option [ngValue]="null">Selecciona tu Entidad Federativa</option>
+                            <option  *ngFor="let entidad of entidades" [ngValue]="entidad">{{entidad}}</option>
+                        </select>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col d-flex justify-content-center">
+                    <button type="submit" class="btn primary-color-A btn-primary">Registrarme</button>
+                </div>
+            </div>
+        </form>
+
+    </div>
+</div>

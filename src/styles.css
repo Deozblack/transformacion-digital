@@ -3,10 +3,23 @@
 
 /* Colores primarios */
 
-.color-primary-A {
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.primary-color-A {
     background-color: #1C8C90;
 }
 
-.color-primary-B {
+.primary-color-B {
     background-color: #1EBA88;
+}
+
+.primary-color-A:hover {
+    background-color: #1EBA88;
+}
+
+.primary-color-B:hover {
+    background-color: #1C8C90;
 }

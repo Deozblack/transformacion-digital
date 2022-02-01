@@ -1,0 +1,23 @@
+.text-temas {
+    color: #1C8C90;
+    font-size: 22px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding-left: 45px;
+}
+
+.item-tema {
+    display: flex;
+}
+
+.item-tema .cont-img {
+    width: auto;
+}
+
+.item-tema img {
+    margin-right: 5px;
+}
+
+.img-pl {
+    padding-left: 5px;
+}

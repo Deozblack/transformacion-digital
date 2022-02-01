@@ -1,0 +1,124 @@
+.contenedor-1 {
+    height: 600px;
+}
+
+.contenedor-2 {
+    height: 600px;
+}
+
+.titulo-banner {
+    color: #fff;
+    text-align: center;
+    margin: auto;
+    width: 85%;
+    padding-top: 120px;
+    font-size: 40px;
+}
+
+.cont-texto-banner {
+    margin: auto;
+    width: 60%;
+    padding-top: 70px;
+}
+
+.texto-banner {
+    color: #fff;
+    text-align: justify;
+    font-size: 22px;
+}
+
+.cont-info {
+    margin-bottom: 100px;
+    margin-left: -100px;
+}
+
+.img-masterclass {
+    width: 230px;
+    padding-bottom: 30px;
+    margin: 0 auto;
+}
+
+.text-titulo {
+    text-align: center;
+    color: #fff;
+    line-height: .9;
+}
+
+.text-digital {
+    font-size: 70px;
+}
+
+.text-mtro {
+    text-align: center;
+    color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.text-horario {
+    text-align: center;
+    color: #1C8C90;
+    font-size: 20px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+
+.btn-primary {
+    padding: 10px 65px;
+    font-size: 22px;
+}
+
+@media (max-width:425px) {
+    .contenedor-1 {
+        height: 200px;
+    }
+    .contenedor-2 {
+        height: 600px;
+    }
+    .titulo-banner {
+        width: 100%;
+        padding-top: 40px;
+        font-size: 20px;
+    }
+    .cont-texto-banner {
+        margin: auto;
+        width: 100%;
+        padding-top: 40px;
+    }
+    .texto-banner {
+        font-size: 15px;
+    }
+    .cont-info {
+        margin-bottom: 0px;
+        margin-left: 0px;
+    }
+    .img-masterclass {
+        width: 120px;
+        padding-bottom: 5px;
+    }
+    .text-titulo {
+        text-align: center;
+        font-size: 15px;
+        text-shadow: 2px 2px 1px #000;
+    }
+    .text-digital {
+        font-size: 22px;
+    }
+    .text-mtro {
+        font-size: 10px;
+        margin: 0;
+        text-shadow: 2px 2px 1px #000;
+    }
+    .text-horario {
+        font-size: 15px;
+        font-weight: 700;
+        padding-bottom: 0px;
+        line-height: .9;
+        text-shadow: 2px 2px 1px #000;
+    }
+    .btn-primary {
+        padding: 2px 20px;
+        font-size: 12px;
+        margin-bottom: 40px;
+    }
+}

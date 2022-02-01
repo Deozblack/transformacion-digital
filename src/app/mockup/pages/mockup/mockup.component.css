@@ -1,0 +1,20 @@
+.cont-banner {
+    background-image: url('../../../../assets/mockup/imagenes/Banner-principal.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cont-general {
+    background-color: #f6f7f8;
+}
+
+.bg-azul {
+    background-color: #1C8C90;
+}
+
+@media (max-width:425px) {
+    .cont-banner {
+        background-position: 20% 10%;
+    }
+}

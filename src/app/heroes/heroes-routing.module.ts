@@ -1,7 +1,17 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { HeroesComponent } from './pages/heroes/heroes.component';
 
-const routes: Routes = [];
+const routes: Routes = [
+  {
+    path:'',
+    component: HeroesComponent
+  },
+  {
+    path:'**',
+    redirectTo: ''
+  }
+];
 
 @NgModule({
   imports: [RouterModule.forChild(routes)],

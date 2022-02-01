@@ -1,0 +1,12 @@
+.card {
+    box-shadow: 5px 5px 20px #000;
+}
+
+.card-title {
+    color: #1C8C90;
+    font-size: 22px;
+}
+
+.card-text {
+    margin: 0;
+}
